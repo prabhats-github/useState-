@@ -8,7 +8,9 @@ const Hooks = () => {
   return (
     <div className={st.maindiv}>
         <h1> Color is {color}</h1>
-        <button onClick={()=>setColor("Red")}>Change Color</button>
+        <button onClick={()=>setColor("Red")}>Red Color</button>
+        
+        <button onClick={()=>setColor("Gray")}>Gray Color</button>
     </div>
   )
 }
