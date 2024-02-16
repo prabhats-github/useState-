@@ -5,3 +5,12 @@
     margin: 20px;
 }
 
+.btn1{
+    background-color: red;
+    border: none;
+}
+
+.btn2{
+    background-color: gray;
+    border: none;
+}
