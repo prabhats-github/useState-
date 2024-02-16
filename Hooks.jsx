@@ -7,7 +7,7 @@ const Hooks = () => {
     const [color,setColor]=useState("green")
   return (
     <div className={st.maindiv}>
-        <h1> color is {color}</h1>
+        <h1> Color is {color}</h1>
         <button onClick={()=>setColor("Red")}>Change Color</button>
     </div>
   )
